@@ -1,7 +1,7 @@
 import requests
 
 city_name = input("都市名を入れてください:")
-app_id = "7ea497207f5d9d4d210ae3b06ec0b3c8"
+app_id = " "
 #&units=metricで摂氏温度を求める
 URL = "https://api.openweathermap.org/data/2.5/weather?q={0},jp&units=metric&lang=ja&appid={1}".format(city_name, app_id)
 
